@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: madhunirmal/maven-madhu-docker-agent:replaceImageTag
+        image: madhunirmal/maven-madhu-docker-agent:22
         ports:
         - containerPort: 8080
